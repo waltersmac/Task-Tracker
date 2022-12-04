@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/task-focus.iml" filepath="$PROJECT_DIR$/.idea/task-focus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/task-tracker.iml" filepath="$PROJECT_DIR$/.idea/task-tracker.iml" />
     </modules>
   </component>
 </project>

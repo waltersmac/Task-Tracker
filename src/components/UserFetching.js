@@ -5,14 +5,13 @@ function UserFetching() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axios.get("http://127.0.0.1:8000/users/")
-        .then(res => {
-            setUsers(res.data);
+        axios.get("/track-api/users/")
+        .then(res => {setUsers(res.data);
         })
-        .catch(err => {
-            console.log(err);
-        });
-    }, []);
+        .catch(err => {console.log(err);
+        }
+    ) }, []);
+
     return (
         <div>
             <ul>
